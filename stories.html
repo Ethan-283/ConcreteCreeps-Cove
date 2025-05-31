@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ConcreteCreeps Cove >> Stories</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Editable content area */
+    main .editable-content {
+      background: #290000;
+      border: 2px solid #661111;
+      padding: 25px;
+      margin-top: 30px;
+      min-height: 300px;
+      color: #eee;
+      font-size: 18px;
+      line-height: 1.6;
+      outline: none;
+      box-shadow:
+        0 2px 4px #661111,
+        inset 0 2px 4px #773333;
+      border-radius: 8px;
+      user-select: text;
+    }
+    
+    /* Style text boxes you insert inside the editable content */
+    .textbox {
+      background-color: #4a0000; /* slightly unsaturated red */
+      border: 2px solid #660000;
+      box-shadow:
+        2px 2px 5px #220000,
+        inset 0 2px 4px #773333;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 6px;
+      color: #f2c2c2;
+    }
+
+    /* Images inside editable content */
+    .editable-content img {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border: 2px solid #661111;
+      border-radius: 6px;
+      box-shadow: 0 0 10px #330000;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/ConcreteCreepsLogo.png" alt="ConcreteCreeps Cove">
+  <nav class="nav-panel">
+    <a href="index.html">Home</a>
+  
+    <div class="dropdown">
+      <a href="stories.html" class="dropbtn">Stories</a>
+      <div class="dropdown-content">
+        <a href="Chapters/chapter1.html">Chapter 1</a>
+        <a href="Chapters/chapter2.html">Chapter 2</a>
+        <a href="Chapters/chapter3.html">Chapter 3</a>
+      </div>
+    </div>
+  
+    <a href="extras.html">Extras</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <h1>Stories</h1>
+    
+    <div
+      class="editable-content"
+      contenteditable="true"
+      spellcheck="true"
+      aria-label="Editable story content area"
+    >
+      <h2>Your story title here</h2>
+      <p>Start typing your story here... You can add <strong>bold</strong> or <em>italic</em> text.</p>
+
+      <div class="textbox">
+        This is a text box with slightly unsaturated red background and raised border.
+      </div>
+
+      <p>You can also insert images inside this editable area.</p>
+
+      <img src="images/sample-image.png" alt="Sample image" />
+
+      <p>Keep editing as you want — the content is editable directly on the page!</p>
+    </div>
+  </main>
+</body>
+</html>
